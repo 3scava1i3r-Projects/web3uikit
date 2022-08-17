@@ -1,4 +1,5 @@
 /* PLOP_INJECT_EXPORT */
+export * from './SolanaNft';
 export * from './SendTransaction';
 export * from './BlockNumber';
 export * from './Blockie';
