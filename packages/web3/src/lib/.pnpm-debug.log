@@ -1,0 +1,24 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/home/escavalier/Documents/au/web3uikit"
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: new",
+      "code": "ENOENT",
+      "stack": "Error: not found: new\n    at getNotFoundError (/home/escavalier/.nvm/versions/node/v16.15.0/lib/node_modules/pnpm/dist/pnpm.cjs:41677:51)\n    at Function.whichSync [as sync] (/home/escavalier/.nvm/versions/node/v16.15.0/lib/node_modules/pnpm/dist/pnpm.cjs:41754:13)\n    at getCommandAbsolutePathSync (/home/escavalier/.nvm/versions/node/v16.15.0/lib/node_modules/pnpm/dist/pnpm.cjs:43319:44)\n    at default_1 (/home/escavalier/.nvm/versions/node/v16.15.0/lib/node_modules/pnpm/dist/pnpm.cjs:43328:32)\n    at /home/escavalier/.nvm/versions/node/v16.15.0/lib/node_modules/pnpm/dist/pnpm.cjs:172149:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/home/escavalier/Documents/au/web3uikit/packages/web3",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: new",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: new\n    at getNotFoundError (/home/escavalier/.nvm/versions/node/v16.15.0/lib/node_modules/pnpm/dist/pnpm.cjs:41677:51)\n    at Function.whichSync [as sync] (/home/escavalier/.nvm/versions/node/v16.15.0/lib/node_modules/pnpm/dist/pnpm.cjs:41754:13)\n    at getCommandAbsolutePathSync (/home/escavalier/.nvm/versions/node/v16.15.0/lib/node_modules/pnpm/dist/pnpm.cjs:43319:44)\n    at default_1 (/home/escavalier/.nvm/versions/node/v16.15.0/lib/node_modules/pnpm/dist/pnpm.cjs:43328:32)\n    at /home/escavalier/.nvm/versions/node/v16.15.0/lib/node_modules/pnpm/dist/pnpm.cjs:172149:39"
+    }
+  }
+}
