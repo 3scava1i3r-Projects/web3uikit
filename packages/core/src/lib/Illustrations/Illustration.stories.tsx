@@ -70,6 +70,12 @@ Crypto.args = {
     logo: 'cryptoweb',
 };
 
+
+export const Optimism = BackgroundColoredTemplate.bind({});
+Optimism.args = {
+    logo: 'optimism',
+};
+
 export const ComingSoon = Template.bind({});
 ComingSoon.args = {
     logo: 'comingSoon',

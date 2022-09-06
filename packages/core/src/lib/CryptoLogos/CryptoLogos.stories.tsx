@@ -60,6 +60,12 @@ Crypto.args = {
     size: '48px',
 };
 
+export const optimism = Template.bind({});
+optimism.args = {
+    chain: 'optimism',
+    size: '48px',
+};
+
 export const Coinbase = Template.bind({});
 Coinbase.args = {
     chain: 'coinbase',

@@ -16,6 +16,7 @@ import fantom from './images/chains/fantom';
 import lazyNft from './images/various/lazyNft';
 import looking from './images/various/looking';
 import marketplace from './images/various/marketplace';
+import optimism from './images/chains/optimisim';
 import pack from './images/various/pack';
 import polygon from './images/chains/polygon';
 import servers from './images/various/servers';
@@ -50,6 +51,8 @@ const getLogo = (logo: Chain | Logo, width?: Size, height?: Size) => {
             return confirmed(width, height);
         case 'looking':
             return looking(width, height);
+        case 'optimism':
+            return optimism(width, height);
         case 'servers':
             return servers(width, height);
         case 'token':
