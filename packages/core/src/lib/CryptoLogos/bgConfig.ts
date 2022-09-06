@@ -15,7 +15,8 @@ export default {
     cryptoweb:
     
     'linear-gradient(113.54deg, rgba(45, 91, 104, 0.531738) 14.91%, rgba(0, 4, 48, 0.6) 42.57%, rgba(45, 91, 104, 0.336) 45.98%, rgba(0, 4, 48, 0.03) 55.76%), linear-gradient(160.75deg, #000430 41.37%, #223F47 98.29%), linear-gradient(113.54deg, rgba(117, 183, 251, 0.531738) 14.91%, rgba(10, 41, 255, 0.6) 42.57%, rgba(25, 105, 255, 0.336) 45.98%, rgba(25, 105, 255, 0.03) 55.76%), linear-gradient(160.75deg, #071AFF 41.37%, #45D4FF 98.29%)',
-    optimism: 'linear-gradient(90deg, rgba(14,0,36,1) 0%, rgba(242,10,10,0.7287289915966386) 28%, rgba(255,0,82,1) 100%);'
+    optimism: 'linear-gradient(90deg, rgba(14,0,36,1) 0%, rgba(242,10,10,0.7287289915966386) 28%, rgba(255,0,82,1) 100%);',
+    celo: 'radial-gradient(circle, rgba(34,195,50,1) 0%, rgba(253,187,45,1) 100%);'
 
 
 };

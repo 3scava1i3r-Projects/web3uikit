@@ -22,6 +22,7 @@ export type chainType =
     | 'coinbase'
     | 'cronos'
     | 'cryptoweb'
+    | 'celo'
     | 'ethereum'
     | 'fantom'
     | 'optimism'

@@ -60,6 +60,13 @@ Crypto.args = {
     size: '48px',
 };
 
+export const Celo = Template.bind({});
+Celo.args = {
+    chain: 'celo',
+    size: '48px',
+};
+
+
 export const optimism = Template.bind({});
 optimism.args = {
     chain: 'optimism',

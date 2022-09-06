@@ -7,6 +7,7 @@ import chest from './images/various/chest';
 import comingSoon from './images/various/comingSoon';
 import confirmed from './images/various/confirmed';
 import coinbaseLogo from './images/chains/coinbase';
+import celo from './images/chains/celo';
 import cronos from './images/chains/cronos';
 import cryptoLogo from './images/chains/cryptoweb';
 import discord from './images/various/discord';
@@ -35,6 +36,8 @@ const getLogo = (logo: Chain | Logo, width?: Size, height?: Size) => {
             return polygon(width, height);
         case 'avalanche':
             return avalanche(width, height);
+        case 'celo':
+            return celo(width, height);
         case 'fantom':
             return fantom(width, height);
         case 'arbitrum':

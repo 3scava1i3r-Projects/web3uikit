@@ -76,6 +76,11 @@ Optimism.args = {
     logo: 'optimism',
 };
 
+export const Celo = BackgroundColoredTemplate.bind({});
+Celo.args = {
+    logo: 'celo',
+};
+
 export const ComingSoon = Template.bind({});
 ComingSoon.args = {
     logo: 'comingSoon',

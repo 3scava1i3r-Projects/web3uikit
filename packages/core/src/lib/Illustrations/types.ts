@@ -2,6 +2,7 @@ export const chainState = [
     'arbitrum',
     'avalanche',
     'binance',
+    'celo',
     'coinbase',
     'cronos',
     'cryptoweb',
